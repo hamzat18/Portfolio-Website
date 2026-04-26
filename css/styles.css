@@ -98,30 +98,24 @@ nav .resume:hover {
   padding: 7rem 3rem 4rem;
   position: relative;
   overflow: hidden;
+
+  background-image:
+    repeating-linear-gradient(
+      20deg,
+      transparent,
+      transparent 39px,
+      rgba(255, 255, 255, 0.02) 39px,
+      rgba(255, 255, 255, 0.02) 40px
+    ),
+    repeating-linear-gradient(
+      110deg,
+      transparent,
+      transparent 39px,
+      rgba(255, 255, 255, 0.02) 39px,
+      rgba(255, 255, 255, 0.02) 40px
+    );
 }
-#hero .hero-bg-line {
-  position: absolute;
-  right: -80px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 520px;
-  height: 520px;
-  border: 5px solid rgba(255, 255, 255, 0.07);
-  border-radius: 50%;
-  pointer-events: none;
-}
-#hero .hero-bg-line:nth-child(2) {
-  width: 360px;
-  height: 360px;
-  right: -20px;
-  border-color: rgba(255, 255, 255, 0.12);
-}
-#hero .hero-bg-line:nth-child(3) {
-  width: 200px;
-  height: 200px;
-  right: 60px;
-  border-color: rgba(212, 240, 96, 0.15);
-}
+
 #hero .hero-content {
   max-width: 700px;
   position: relative;
